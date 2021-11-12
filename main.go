@@ -62,6 +62,7 @@ func dificuldade() {
 }
 
 func tentativas() int {
+	fmt.Print("Escolha:")
 	var dificuldade int
 	fmt.Scan(&dificuldade)
 
